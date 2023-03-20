@@ -2,7 +2,8 @@
 
 <font size=”1”>
 12.3. -Made the reposatory public again </br>
-15.3. -Added the math exercise files
+15.3. -Added the math exercise files (1-math)
+20.3. -Vector + epsilon number 2
 
  </font>
 
