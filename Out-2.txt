@@ -1,0 +1,19 @@
+These are my epsilon and vector exercises
+My max int = 2147483647
+My max int = -2147483648
+The max is 2147483647
+The min is -2147483648
+We get the double 2.22044604925031E-16 and the float 1.192093E-07
+We should get the double 2.22044604925031E-16 and the float 1.19209289550781E-07
+sumA-1 = 0.000000e+000 should be 1.110223e-010
+sumB-1 = 1.110223e-010 should be 1.110223e-010
+Epsilon is the smallest double that 1 + epsilon is not 1. That means that half that is always just 1. 
+
+1.00000000001 and 1 are roughly equal: True 
+1.0001 and 1 are roughly equal: False 
+Vector a is: 3 4 1 
+Vector b is: -1 1 10 
+The sum of the vectors is: 2 5 11 
+The difrence of the vectors is: 4 3 -9 
+The product of vector a and 3 is: 9 12 3 
+The dot product of the vectors is: 11 
