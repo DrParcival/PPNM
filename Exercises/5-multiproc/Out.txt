@@ -1,0 +1,120 @@
+Main: nterms=200000000 nthreads=1
+Main: now waiting for othrer threads...
+thread THREAD 1 started: a=1 b=200000001
+thread THREAD 1 done: partial sum = 19.6910435919144
+Main: total sum = 19.6910435919144
+real 1.09
+user 0.95
+sys 0.01
+Main: nterms=200000000 nthreads=2
+Main: now waiting for othrer threads...
+thread THREAD 2 started: a=100000001 b=200000001
+thread THREAD 1 started: a=1 b=100000001
+thread THREAD 1 done: partial sum = 18.9978964138526
+thread THREAD 2 done: partial sum = 0.693147178059741
+Main: total sum = 19.6910435919123
+real 1.76
+user 2.82
+sys 0.06
+Main: nterms=200000000 nthreads=3
+thread THREAD 1 started: a=1 b=66666667
+Main: now waiting for othrer threads...
+thread THREAD 2 started: a=66666667 b=133333334
+thread THREAD 3 started: a=133333334 b=200000001
+thread THREAD 3 done: partial sum = 0.405465109358139
+thread THREAD 2 done: partial sum = 0.693147184310161
+thread THREAD 1 done: partial sum = 18.5924312982437
+Main: total sum = 19.691043591912
+real 3.42
+user 6.81
+sys 0.04
+Main: nterms=200000000 nthreads=4
+thread THREAD 1 started: a=1 b=50000001
+thread THREAD 2 started: a=50000001 b=100000001
+thread THREAD 3 started: a=100000001 b=150000001
+Main: now waiting for othrer threads...
+thread THREAD 4 started: a=150000001 b=200000001
+thread THREAD 1 done: partial sum = 18.3047492382933
+thread THREAD 2 done: partial sum = 0.693147175559714
+thread THREAD 3 done: partial sum = 0.405465106441426
+thread THREAD 4 done: partial sum = 0.287682071618549
+Main: total sum = 19.691043591913
+real 2.57
+user 7.76
+sys 0.01
+Main: nterms=200000000 nthreads=5
+thread THREAD 3 started: a=80000001 b=120000001
+thread THREAD 4 started: a=120000001 b=160000001
+thread THREAD 2 started: a=40000001 b=80000001
+thread THREAD 1 started: a=1 b=40000001
+Main: now waiting for othrer threads...
+thread THREAD 5 started: a=160000001 b=200000001
+thread THREAD 5 done: partial sum = 0.223143550689328
+thread THREAD 3 done: partial sum = 0.405465106024843
+thread THREAD 4 done: partial sum = 0.287682071410081
+thread THREAD 2 done: partial sum = 0.693147174309758
+thread THREAD 1 done: partial sum = 18.0816056894781
+Main: total sum = 19.6910435919121
+real 1.22
+user 4.16
+sys 0.00
+Main: nterms=200000000 nthreads=6
+thread THREAD 2 started: a=33333334 b=66666667
+thread THREAD 1 started: a=1 b=33333334
+thread THREAD 3 started: a=66666667 b=100000001
+thread THREAD 4 started: a=100000001 b=133333334
+thread THREAD 5 started: a=133333334 b=166666667
+Main: now waiting for othrer threads...
+thread THREAD 6 started: a=166666667 b=200000001
+thread THREAD 1 done: partial sum = 17.8992841251813
+thread THREAD 6 done: partial sum = 0.182321560294066
+thread THREAD 2 done: partial sum = 0.693147173059905
+thread THREAD 3 done: partial sum = 0.40546511560833
+thread THREAD 5 done: partial sum = 0.223143549064184
+thread THREAD 4 done: partial sum = 0.287682068701782
+Main: total sum = 19.6910435919095
+real 0.65
+user 2.35
+sys 0.01
+Main: nterms=200000000 nthreads=7
+thread THREAD 1 started: a=1 b=28571429
+thread THREAD 2 started: a=28571429 b=57142858
+thread THREAD 3 started: a=57142858 b=85714286
+thread THREAD 4 started: a=85714286 b=114285715
+thread THREAD 5 started: a=114285715 b=142857143
+thread THREAD 6 started: a=142857143 b=171428572
+Main: now waiting for othrer threads...
+thread THREAD 7 started: a=171428572 b=200000001
+thread THREAD 1 done: partial sum = 17.7451334378552
+thread THREAD 2 done: partial sum = 0.693147189309943
+thread THREAD 6 done: partial sum = 0.182321559710634
+thread THREAD 3 done: partial sum = 0.405465099358053
+thread THREAD 7 done: partial sum = 0.154150681910571
+thread THREAD 4 done: partial sum = 0.287682076826711
+thread THREAD 5 done: partial sum = 0.223143546939202
+Main: total sum = 19.6910435919103
+real 0.49
+user 1.94
+sys 0.06
+Main: nterms=200000000 nthreads=8
+thread THREAD 1 started: a=1 b=25000001
+thread THREAD 3 started: a=50000001 b=75000001
+thread THREAD 4 started: a=75000001 b=100000001
+thread THREAD 2 started: a=25000001 b=50000001
+thread THREAD 5 started: a=100000001 b=125000001
+thread THREAD 6 started: a=125000001 b=150000001
+thread THREAD 7 started: a=150000001 b=175000001
+Main: now waiting for othrer threads...
+thread THREAD 8 started: a=175000001 b=200000001
+thread THREAD 1 done: partial sum = 17.6116020677299
+thread THREAD 8 done: partial sum = 0.13353139226736
+thread THREAD 3 done: partial sum = 0.4054651047748
+thread THREAD 2 done: partial sum = 0.69314717056011
+thread THREAD 4 done: partial sum = 0.287682070785091
+thread THREAD 5 done: partial sum = 0.223143550314217
+thread THREAD 7 done: partial sum = 0.154150679351042
+thread THREAD 6 done: partial sum = 0.182321556127268
+Main: total sum = 19.6910435919098
+real 0.66
+user 2.43
+sys 0.08
