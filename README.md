@@ -5,7 +5,7 @@
 
 -Made the reposatory public again </br>
 -Added the exercises in their folders 1-math, 2-vec/eps, 3-io, 4-genlist, 5-multiproc and 6-plots
-<p> My multi processing times seems a bit odd, but I couldn't find any obvious mistakes </p>
+
 
  </font>
 
