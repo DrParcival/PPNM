@@ -1,9 +1,8 @@
 # PPNM
 
 <font size=”1”>
-12.3. -Made the reposatory public again </br>
-15.3. -Added the math exercise files (1-math)
-20.3. -Vector + epsilon number 2
+11.4. -Made the reposatory public again </br>
+      -Added the exercises in their folders 1-math, 2-vec/eps, 3-io, 4-genlist, 5-multiproc and 6-plots
 
  </font>
 
