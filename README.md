@@ -4,7 +4,7 @@
 25.4. 
 
 -Made the reposatory public again </br>
--Added the exercises in their folders 1-math, 2-vec/eps, 3-io, 4-genlist, 5-multiproc and 6-plots
+-Added the exercises in their folders 1-math, 2-vec/eps, 3-io, 4-genlist, 5-multiproc and 6-plots </br>
 -Added the LinEq homework where I've done A and B
 
 
