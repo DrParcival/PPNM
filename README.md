@@ -1,10 +1,11 @@
 # PPNM
 
 <font size=”1”>
-11.4. 
+25.4. 
 
 -Made the reposatory public again </br>
 -Added the exercises in their folders 1-math, 2-vec/eps, 3-io, 4-genlist, 5-multiproc and 6-plots
+-Added the LinEq homework where I've done A and B
 
 
  </font>
@@ -12,7 +13,7 @@
  ======================================
 | #  | homework      | A | B | C | Σ   |
  ======================================
-| 1  | LinEq         | - | - | - | -  |
+| 1  | LinEq         | 6 | 3 | - | 9  |
 ---------------------------------------
 | 2  | EVD           | - | - | - |  -  |
 ---------------------------------------
@@ -32,6 +33,6 @@
 ---------------------------------------
 | 10  | Splines  | - | - | - |  -  |
  ======================================
-|                    total points: 0  |
+|                    total points: 9  |
  ======================================
  
