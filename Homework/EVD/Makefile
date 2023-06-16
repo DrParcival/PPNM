@@ -1,4 +1,3 @@
-
 Out.txt    :    main.exe
 	mono $< 1> $@ 2> log
 
