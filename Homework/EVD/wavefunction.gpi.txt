@@ -1,0 +1,11 @@
+set terminal svg
+set key bottom rightcc
+set output "wavefunctions.svg"
+set xlabel "r[a0]"
+set ylabel "Energy"
+set tics out
+set xzeroaxis
+set yzeroaxis
+set title "Comparisong of the energies"
+plot 'Out.txt' using 1:2 with pt 7
+
