@@ -1,0 +1,35 @@
+This is the decomposition to Q and R 
+This is my matrix A 
+
+         2          3 
+        -1          1 
+         2          1 
+This is the R matrix
+         3       2.33 
+         0       2.36 
+This is the Q matrix
+     0.667      0.613 
+    -0.333      0.754 
+     0.667     -0.236 
+This should be same as the A
+         2          3 
+        -1          1 
+         2          1 
+Q transpose times Q is
+         1  -2.78e-17 
+ -2.78e-17          1 
+Here we solve xThis is my vector b         3          4         -1 
+This is the solution x     -1.73       2.27    -0.0909 
+This shold be equal to b         3          4         -1 
+This is the inverseThis is the used matrix
+         2          3          4 
+        -1          1          0 
+         2          1         -2 
+This is the inverse
+    0.0909     -0.455      0.182 
+    0.0909      0.545      0.182 
+     0.136     -0.182     -0.227 
+This should be identity
+         1   1.39e-16   1.11e-16 
+  1.11e-16          1  -1.67e-16 
+ -5.55e-17   1.11e-16          1 
