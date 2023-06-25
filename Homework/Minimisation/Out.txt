@@ -1,0 +1,8 @@
+Let's find the minimum for Rosenbrocks function: 
+The min is at (0.997580014643789,0.994935868319707) with 150 steps 
+Based Wikipedia the minimum is at (1,1) 
+End then the min for Himmelblau is at (3.00067385769514,1.99738583893963) with 21 steps 
+End then the min for Himmelblau is at (-2.80505497516855,3.13155725445327) with 7 steps 
+End then the min for Himmelblau is at (-3.7786411718974,-3.28197474789583) with 23 steps 
+End then the min for Himmelblau is at (3.5850904913761,-1.84811655067406) with 16 steps 
+Based Wikipedia the global minimums are at (3,2), (-2.8,3.1), (-3.8, -3.3) and (3.6, -1.8)  
