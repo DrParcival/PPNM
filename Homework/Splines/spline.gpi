@@ -1,0 +1,11 @@
+set terminal svg
+set key bottom right
+set output "spline.svg"
+set xlabel "x"
+set ylabel "y=(x-1)^3"
+set tics out
+set xzeroaxis
+set yzeroaxis
+set title "The function and spline fit"
+plot (x-1)**3 with lines linetype 1 lc "red" title "Analytical" \
+,"spline.data" using 1:2 with lines linetype 1 lc "blue" title "Fit"
