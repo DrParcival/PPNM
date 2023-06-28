@@ -1,0 +1,14 @@
+set terminal svg
+set key bottom right
+set output "spline.svg"
+set xlabel "x"
+set ylabel "y"
+set tics out
+set xzeroaxis
+set yzeroaxis
+set samples 50
+set title "The function and spline fit"
+plot (x-1)**3 with points pt 1 lc "red" title "(x-1)^3" \
+,"spline.data" using 1:2 with lines linetype 1 lc "blue" title "Fit" \
+, 3*(x-1)**2 with points pt 1 lc "green" title "3(x-1)^2" \
+,"spline.data" using 1:3 with lines linetype 1 lc "purple" title "Derivative fit"
