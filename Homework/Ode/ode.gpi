@@ -1,0 +1,12 @@
+set terminal svg background "white" 
+set key bottom right
+set output "ode.svg"
+set xlabel "x"
+set ylabel "y"
+set tics out
+set xzeroaxis
+set yzeroaxis
+set samples 50
+set title "Solution of u'=-u with 12 step"
+plot "ode.data" using 1:2 with lines linetype 1 lc "blue" title "Cosine" \
+,"ode.data" using 1:3 with lines linetype 1 lc "red" title "Sine"

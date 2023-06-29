@@ -1,0 +1,11 @@
+set terminal svg background "white" 
+set key bottom right
+set output "scipy.svg"
+set xlabel "t"
+set ylabel "y"
+set tics out
+set xzeroaxis
+set yzeroaxis
+set title "Solution of oscillator with friction"
+plot "scipy.data" using 1:2 with lines linetype 1 lc "blue" title "theta(t)" \
+,"scipy.data" using 1:3 with lines linetype 1 lc "red" title "omega(t)"
