@@ -1,0 +1,11 @@
+set terminal svg background "white" 
+set key bottom right
+set output "app.svg"
+set xlabel "x"
+set ylabel "y=g(x)"
+set tics out
+set xzeroaxis
+set yzeroaxis
+set title "The function and the approximation"
+plot "app.data" using 1:2 with lines linetype 1 lc "blue" title "Analytical"  \
+,"app.data" using 1:3 with lines linetype 1 lc "red" title "Fit" 
