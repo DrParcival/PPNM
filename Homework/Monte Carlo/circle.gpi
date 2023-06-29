@@ -1,0 +1,12 @@
+set terminal svg background "white" 
+set key bottom right
+set output "circle.svg"
+set xlabel "N"
+set ylabel "Error"
+set tics out
+set xzeroaxis
+set yzeroaxis
+set logscale x 
+set xrange [0:2e8]
+set title "The error as function of iterations"
+plot "circle.data" using 1:2:3 pt 1 lt 1 with yerrorbars title "Area" \
