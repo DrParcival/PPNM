@@ -1,0 +1,14 @@
+Area of the unit cirle: 
+The area is 3.1424823188084 with an error 0.00181416357933208. The accurate result is 3.14159265358979 
+
+Area of a singular integral 
+The area is 1.38007027963852 with an error 0.00645630240791963. The accurate result is 1.3932039296856768591842462603255 
+
+Check if the error decreases as it should 
+True 
+True 
+True 
+True 
+True 
+True 
+True 
