@@ -1,0 +1,7 @@
+Finding the root in paraboloid 
+Looking for the root of x^2-4 
+My method gives 2 and -2 when they should be 2 and -2 
+
+Finding the root(s) of Rosenbrock's valley function
+Looking for the root of Rosenbrock's valley function 
+My method gives 0.999936194246444 and 1.00000188559641 when it should be (1,1) according to Wikipedia 
