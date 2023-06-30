@@ -6,7 +6,7 @@ rmax.svg : rmax.gpi Out.txt
 dr.svg : dr.gpi Out.txt
 	gnuplot $<
 
-wavefunction.svg : wavefunction.gpi Out.txt
+wavefunction.svg : wavefunction.gpi func.data
 	gnuplot $<
 
 Out.txt    :    main.exe
