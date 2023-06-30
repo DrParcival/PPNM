@@ -1,4 +1,4 @@
-set terminal svg
+set terminal svg background "white" 
 set key top right
 set output "wavefunctions.svg"
 set xlabel "r[a0]"
