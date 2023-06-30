@@ -4,24 +4,24 @@ using static System.Math;
 public static class main{
 public static void Main(){
 
-/*I'm worked with fixed lenght but it could be updated for arbitrary lenght*/
-double[] x = new double[20];
-double[] y = new double[20];
-double[] p = new double[20];
+int n = 20;
+double[] x = new double[n];
+double[] y = new double[n];
+double[] p = new double[n];
 
-for(int i=0; i<20; i++){
+for(int i=0; i<n; i++){
 	x[i] = i/2.0;
 	y[i] = Math.Pow(x[i]-1,3);
 	} /*END: For i, Creating the tabulated points*/
 
 /*Let's get the p at point i*/
-for(int i=1; i<19; i++){
+for(int i=1; i<n-1; i++){
 	double b1 = (y[i]-y[i-1])/(x[i]-x[i-1]);
 	double b2 = ((y[i+1]-y[i])/(x[i+1]-x[i])-b1)/(x[i+1]-x[i-1]);
 	p[i] = b1 +b2*(x[i]-x[i-1]);
 	} /*END: For i*/
 p[0] = p[1];
-p[19] = p[18];
+p[n-1] = p[n-2];
 
 
 System.Console.Write("Here is the data x(i), y(i) and p(i): \n");
