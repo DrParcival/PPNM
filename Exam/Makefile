@@ -4,6 +4,9 @@ spline.svg : spline.gpi spline.data
 integral.svg : integral.gpi spline.data
 	gnuplot $<
 
+step.svg : step.gpi step.data
+	gnuplot $<
+
 Out.txt    :    main.exe
 	mono $< 1> $@ 2> log
 
