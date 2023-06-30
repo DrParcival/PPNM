@@ -5,7 +5,7 @@
 -Made the reposatory public again </br>
 -Added the exercises in their folders 1-math, 2-vec/eps, 3-io, 4-genlist, 5-multiproc and 6-plots </br>
 -Neutral network method isn't perfect but I couldn't find the bug </br>
--I have been trying to find why my least square method gives wrong answers but haven't been able to solve it. I've tried debugging the QRGS solve, lsfit and main method. There wasn't really point to plotting it but I've done most of the A. Hopefully that is enugh for the 6 points.
+-I have been trying to find why my least square method gives wrong answers but haven't been able to solve it. I've tried debugging the QRGS solve, lsfit and main method. There wasn't really point to plotting it but I've done most of the A. Hopefully that is enough for the 6 points.
 
 
  </font>
